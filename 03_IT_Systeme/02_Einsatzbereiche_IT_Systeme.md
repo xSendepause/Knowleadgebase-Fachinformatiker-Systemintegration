@@ -50,6 +50,12 @@ Gruppenrichtlinien: |Gruppenrichtlinien(GPO's) ermöglichen die zentrale Konfigu
 - synchrone und asynchrone Kommunikation
 - Multimedia Inhalte (Bilder, Texte, Videos usw.)
 
+**VoIP-Systeme:**
+Sprachkommunikation über IP-Netzwerke wie bspw. IP-Telefonie, Teams.
+
+**Unterschied zwischen synchroner und asynchroner Kommunikation:**
+Synchron: Kommunikation findet zeitgleich statt → Telefonie, VoIP, Videokonferenz, Live-Chat.
+Asynchron: Kommunikation erfolgt zeitversetzt → E-Mail, Foren, Wikis.
 **
 
 ## Client-Server-Systeme
@@ -74,6 +80,26 @@ für alle Drucker
 **Dateiserver:** Bspw. Ordnerstrukturen für NAS, die auch Zugriffsrechte etc. Regeln
 **Datenbankserver:**  wo die Anfragen von Clients bearbeitet werden, um Daten abzurufen 
 oder generell Manipulieren zu können. Bspw. SQL (Structured Query Language)
+**Webserver:**  
+Stellt Webseiten und Webanwendungen über HTTP bzw. HTTPS bereit. Beispiele für Webserver-Software sind Apache, Nginx und Microsoft IIS.
+
+**Mailserver:**  
+Verarbeitet den Versand, Empfang und die Speicherung von E-Mails. Dabei kommen beispielsweise SMTP, IMAP und POP3 zum Einsatz.
+
+**DNS-Server:**  
+Übernimmt die Namensauflösung und ordnet beispielsweise Domainnamen den entsprechenden IP-Adressen zu.
+
+**DHCP-Server:**  
+Vergibt automatisch Netzwerkkonfigurationen wie IP-Adresse, Subnetzmaske, Standardgateway und DNS-Server an Clients.
+
+**Verzeichnisserver / Domain Controller:**  
+Verwaltet in einer Active-Directory-Umgebung unter anderem Benutzer, Computer und Gruppen und stellt zentrale Authentifizierungs- und Autorisierungsdienste bereit.
+
+**Web-Proxy-Server:**  
+Vermittelt Anfragen zwischen Clients und anderen Servern, beispielsweise beim Zugriff auf das Internet. Er kann unter anderem zur Zugriffskontrolle, Filterung oder Protokollierung eingesetzt werden.
+
+**Backup-Server:**  
+Dient der zentralen Sicherung und Wiederherstellung von Daten und Systemen.
 
 
 ## Einbindung Domäne (Active Directory)
