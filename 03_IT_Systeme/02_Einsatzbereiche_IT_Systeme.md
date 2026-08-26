@@ -24,8 +24,7 @@
 Gesamtstruktur(Forest): | Die höchst logische Struktur innerhalb einer Active Directory. Ein Forest umfasst eine oder mehrere Domänen, die sich ein gemeinsames Schema und eine gemeinsame Konfiguration teilen. Zudem stellt ein Forest einen globalen Katalog bereit . über den Informationen zu Objekten forestweit/ in der gesamten Struktur gesucht werden können. Zwischen den Domänen eines Forests bestehen automatisch transitive Vertrauenstellungen. (sind automatische, bidirektionale Vertrauensbeziehungen zwischen übergeordneten und untergeordneten Domänen)|
 Domain Controller:| Ein Server der auf dem Active Directory Domain Services (AD DS) er speichert eine vollständige Kopie der AD-Datenbank und übernimmt unter anderem Authentifizierung, Autorisierung und Replikation. in der Regel werden in einer professionellen Infrastruktur 2 installiert um eine Redundanz zu bilden |
 Organistationseinheit: |Organisationseinheiten sind Container innerhalb einer Domäne, mit denen du Objekte logisch gruppieren kannst. Sie spiegeln oft die Unternehemensstruktur wieder, etwa OUs für verschiedene Abteilungen, Standorte, Benutzer, Computer, Drucker und Gruppen. |
-Schema: |Das Schema definiert die Struktur und die Regeln des Active Directory. Es legt fest, welche Objekttypen (Klassen) und welche Eigenschaften (Attribute) für diese Objekte im Active Directory existieren und gespeichert werden können.
-Beispielsweise definiert das Schema die Objektklasse Benutzer (User) mit möglichen Attributen wie Vorname, Nachname, E-Mail-Adresse und Telefonnummer|
+Schema: |Das Schema definiert die Struktur und die Regeln des Active Directory. Es legt fest, welche Objekttypen (Klassen) und welche Eigenschaften (Attribute) für diese Objekte im Active Directory existieren und gespeichert werden können. Beispielsweise definiert das Schema die Objektklasse Benutzer (User) mit möglichen Attributen wie Vorname, Nachname, E-Mail-Adresse und Telefonnummer|
 Authentifizierung und Protokolle:
  | -LDAP: |LDAP ist das Protokoll, über das Anwendungen mit Active Directory kommunizieren. Wenn du beispielsweise im Adressbuch von Outlook nach einem Kollegen suchst, stellt Outlook eine LDAP-Abfrage an den Domain Controller|
   -Kerberos: |Das standardmäßige Authentifizierungsprotokoll in Active-Directory-Domänen. Es arbeitet ticketbasiert und ermöglicht unter anderem Single Sign-on (SSO).|
@@ -50,6 +49,8 @@ Gruppenrichtlinien: |Gruppenrichtlinien(GPO's) ermöglichen die zentrale Konfigu
 - Digitale Plattform, die den sozialen Austasuch, networking und Content sharing ermöglichen.
 - synchrone und asynchrone Kommunikation
 - Multimedia Inhalte (Bilder, Texte, Videos usw.)
+
+**
 
 ## Client-Server-Systeme
 
