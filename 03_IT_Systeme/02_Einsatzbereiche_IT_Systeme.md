@@ -29,8 +29,7 @@ Schema: |Das Schema definiert die Struktur und die Regeln des Active Directory. 
  | -LDAP: |LDAP ist das Protokoll, über das Anwendungen mit Active Directory kommunizieren. Wenn du beispielsweise im Adressbuch von Outlook nach einem Kollegen suchst, stellt Outlook eine LDAP-Abfrage an den Domain Controller|
   -Kerberos: |Das standardmäßige Authentifizierungsprotokoll in Active-Directory-Domänen. Es arbeitet ticketbasiert und ermöglicht unter anderem Single Sign-on (SSO).|
   -Protokolle: |
-Gruppenrichtlinien: |Gruppenrichtlinien(GPO's) ermöglichen die zentrale Konfiguration und Durchsetzung von Einstellungen für Benutzer und Computer in einer Active Directory Umgebung. Einstellungen lassen sich auf die jeweils betroffenen Benutzer und Computer anwenden, ohne jeden rechnr einzeln konfigurieren zu müssen.
-      Typische Einsatzbereiche sind: Sicherheitseinstellungen wie bspw. Kennwort- und        Kontorichtlinien, Konfigurationen von Windowseinstellungen und Systemeinstellungen, Einschränkung des Zugriffs auf verschiedenen Funktionen, Ausführen von An- und Abmeldeskripten, Startskripte, Konfiguration von Defender Firewall, Bereitstellung bestimmter Software über GPO Plicy Softwareinstallation.|
+Gruppenrichtlinien: |Gruppenrichtlinien(GPO's) ermöglichen die zentrale Konfiguration und Durchsetzung von Einstellungen für Benutzer und Computer in einer Active Directory Umgebung. Einstellungen lassen sich auf die jeweils betroffenen Benutzer und Computer anwenden, ohne jeden rechnr einzeln konfigurieren zu müssen. Typische Einsatzbereiche sind: Sicherheitseinstellungen wie bspw. Kennwort- und        Kontorichtlinien, Konfigurationen von Windowseinstellungen und Systemeinstellungen, Einschränkung des Zugriffs auf verschiedenen Funktionen, Ausführen von An- und Abmeldeskripten, Startskripte, Konfiguration von Defender Firewall, Bereitstellung bestimmter Software über GPO Plicy Softwareinstallation.|
 
 
 ## Kommunikationssysteme
