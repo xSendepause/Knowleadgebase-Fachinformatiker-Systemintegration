@@ -10,7 +10,7 @@
 ## Grundlagen
 
 <!-- TODO: Grundlegende Konzepte ergänzen -->
-** Was ist Virtualisierung **
+**Was ist Virtualisierung**
 Virtuelle Maschinen (VMs) simulieren physische Computer in Softwareform. Jede VM verfügt über eigene virtuelle Hardwarekomponenten wie CPU, Arbeitsspeicher, Festplatte und Netzwerkkarte sowie über ein eigenes Betriebssystem. Dadurch können mehrere Betriebssysteme parallel auf derselben physischen Hardware betrieben werden.
 
 Hypervisoren sind Softwarekomponenten, die die Ressourcen der physischen Hardware verwalten und den virtuellen Maschinen zuweisen. Sie stellen den VMs die benötigten Ressourcen wie Prozessorleistung, Arbeitsspeicher, Speicherplatz und Netzwerkverbindungen bereit. Dabei sorgt der Hypervisor dafür, dass die VMs voneinander getrennt bleiben. Man unterscheidet grundsätzlich zwischen Typ1-Hypervisor(Baremetal) und Typ2-Hypervisor(gehosteter Hypervisor).
@@ -19,13 +19,13 @@ Ein wichtiges Merkmal der Virtualisierung ist die Isolation. Jede VM arbeitet un
 
 Zudem bietet Virtualisierung eine Abstraktion der Hardware. Das Gastbetriebssystem in der VM sieht nur die virtuelle Hardware und hat keinen direkten Zugriff auf die physische Hardware des Hostsystems. Dadurch können VMs flexibel zwischen verschiedenen physischen Systemen verschoben werden.
 
-** Vorteile von Virtualisierung **
+**Vorteile von Virtualisierung**
 Effizientere Ressourcennutzung Mehrere VMs können auf einer physischen Hardware betrieben werden
 Geringere Kosten - Weniger physische Hardware
 schnelle Bereitstellung neuer Server und Dienste 
 Sicherheit - VM's sind isoliert, was sie ideal für Tests und den Schutz vor Malware macht
 
-** Nachteile Virtualisierung ** 
+**Nachteile Virtualisierung ** 
 Abhängigkeit vom Hostsystem
 Hohe Anforderungen an Hardware
 Komplexere Verwaltung
