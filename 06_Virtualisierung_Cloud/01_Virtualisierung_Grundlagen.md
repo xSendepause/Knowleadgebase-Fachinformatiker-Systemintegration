@@ -20,18 +20,18 @@ Ein wichtiges Merkmal der Virtualisierung ist die Isolation. Jede VM arbeitet un
 Zudem bietet Virtualisierung eine Abstraktion der Hardware. Das Gastbetriebssystem in der VM sieht nur die virtuelle Hardware und hat keinen direkten Zugriff auf die physische Hardware des Hostsystems. Dadurch können VMs flexibel zwischen verschiedenen physischen Systemen verschoben werden.
 
 **Vorteile von Virtualisierung**
-Effizientere Ressourcennutzung Mehrere VMs können auf einer physischen Hardware betrieben werden
-Geringere Kosten - Weniger physische Hardware
-schnelle Bereitstellung neuer Server und Dienste 
-Sicherheit - VM's sind isoliert, was sie ideal für Tests und den Schutz vor Malware macht
+-Effizientere Ressourcennutzung Mehrere VMs können auf einer physischen Hardware betrieben werden
+-Geringere Kosten - Weniger physische Hardware
+-schnelle Bereitstellung neuer Server und Dienste 
+-Sicherheit - VM's sind isoliert, was sie ideal für Tests und den Schutz vor Malware macht
 
-**Nachteile Virtualisierung ** 
-Abhängigkeit vom Hostsystem
-Hohe Anforderungen an Hardware
-Komplexere Verwaltung
-Host-Ausfall betrifft mehrere VMs
+**Nachteile Virtualisierung** 
+-Abhängigkeit vom Hostsystem
+-Hohe Anforderungen an Hardware
+-Komplexere Verwaltung
+-Host-Ausfall betrifft mehrere VMs
 
-** Snapshot ** 
+**Snapshot** 
 Ein Snapshot speichert den Zustand einer VM zu einem bestimmten Zeitpunkt. Dadurch kann die virtuelle Maschine bei Problemen oder nach fehlgeschlagenen Änderungen auf diesen gespeicherten Zustand zurückgesetzt werden.
 
 ## Wichtige Begriffe
