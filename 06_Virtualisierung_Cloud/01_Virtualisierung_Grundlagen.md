@@ -13,7 +13,7 @@
 ** Was ist Virtualisierung **
 Virtuelle Maschinen (VMs) simulieren physische Computer in Softwareform. Jede VM verfügt über eigene virtuelle Hardwarekomponenten wie CPU, Arbeitsspeicher, Festplatte und Netzwerkkarte sowie über ein eigenes Betriebssystem. Dadurch können mehrere Betriebssysteme parallel auf derselben physischen Hardware betrieben werden.
 
-Hypervisoren sind Softwarekomponenten, die die Ressourcen der physischen Hardware verwalten und den virtuellen Maschinen zuweisen. Sie stellen den VMs die benötigten Ressourcen wie Prozessorleistung, Arbeitsspeicher, Speicherplatz und Netzwerkverbindungen bereit. Dabei sorgt der Hypervisor dafür, dass die VMs voneinander getrennt bleiben.
+Hypervisoren sind Softwarekomponenten, die die Ressourcen der physischen Hardware verwalten und den virtuellen Maschinen zuweisen. Sie stellen den VMs die benötigten Ressourcen wie Prozessorleistung, Arbeitsspeicher, Speicherplatz und Netzwerkverbindungen bereit. Dabei sorgt der Hypervisor dafür, dass die VMs voneinander getrennt bleiben. Man unterscheidet grundsätzlich zwischen Typ1-Hypervisor(Baremetal) und Typ2-Hypervisor(gehosteter Hypervisor).
 
 Ein wichtiges Merkmal der Virtualisierung ist die Isolation. Jede VM arbeitet unabhängig von den anderen VMs. Probleme oder Abstürze in einer VM wirken sich in der Regel nicht auf andere virtuelle Maschinen aus.
 
@@ -36,9 +36,22 @@ Ein Snapshot speichert den Zustand einer VM zu einem bestimmten Zeitpunkt. Dadur
 
 ## Wichtige Begriffe
 
-| Begriff | Definition |
-|---------|------------|
-| | |
+| Begriff | Erklärung |
+|----------|----------|
+| Virtualisierung | Technologie, die es ermöglicht, mehrere virtuelle Systeme auf einer physischen Hardware zu betreiben. |
+| Virtuelle Maschine (VM) | Softwarebasierter Computer mit eigenem Betriebssystem und virtueller Hardware. |
+| Hypervisor | Software, die die Hardware-Ressourcen verwaltet und den virtuellen Maschinen zuweist. |
+| Typ-1-Hypervisor | Hypervisor, der direkt auf der physischen Hardware läuft (Bare-Metal). |
+| Typ-2-Hypervisor | Hypervisor, der auf einem bestehenden Betriebssystem läuft. |
+| Host | Physischer Rechner, auf dem die virtuellen Maschinen betrieben werden. |
+| Gastbetriebssystem | Betriebssystem, das innerhalb einer virtuellen Maschine installiert ist. |
+| Ressourcen | CPU, Arbeitsspeicher, Speicherplatz und Netzwerkressourcen, die den VMs zugewiesen werden. |
+| Isolation | Trennung der virtuellen Maschinen, sodass sie unabhängig voneinander arbeiten. |
+| Abstraktion | Die physische Hardware wird durch virtuelle Hardware dargestellt. |
+| Snapshot | Speicherung des Zustands einer VM zu einem bestimmten Zeitpunkt, um diesen später wiederherstellen zu können. |
+| Klonen (Clone) | Erstellung einer identischen Kopie einer virtuellen Maschine. |
+| VDI (Virtual Desktop Infrastructure) | Bereitstellung virtueller Desktop-Arbeitsplätze über zentrale Server. |
+| Migration | Verschieben einer VM von einem Host auf einen anderen. |
 
 ## Prüfungsrelevante Inhalte
 
