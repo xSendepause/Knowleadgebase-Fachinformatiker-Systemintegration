@@ -20,7 +20,7 @@ Ein Typ-1-Hypervisor wird direkt auf der physischen Hardware installiert. Er ben
   -geringer Ressourcenverbrauch
   -Besonders für Rechenzentren und Unternehmensumgebungen geeignet
 
-**Typ-2 Hypervisor(Hosted)
+**Typ-2 Hypervisor(Hosted)**
 Anders als bei einem Typ-1 Hypervisor wird in Typ-2-Hypervisor auf einem bereits vorhandenen Betriebssystem installiert. Die virtuellen Maschinen laufen somit über das Host-Betriebssystem. Beispiel dafür sind: Oracle VirtualBox, VMware Workstation und VMware Player
 
 *Vorteile*
