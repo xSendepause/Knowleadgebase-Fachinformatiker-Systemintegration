@@ -23,6 +23,14 @@
 ## Clustering
 
 <!-- TODO: Clustering ergänzen -->
+Clustering bedeutet, dass mehrere Server miteinander verbunden werden und gemeinsam als ein System arbeiten. Dadurch können die Verfügbarkeit, Ausfallsicherheit und Leistung verbessert werden.
+
+Fällt ein Server im Cluster aus, kann ein anderer Server dessen Aufgaben übernehmen.
+
+Wichtige Arten von Clustern
+High-Availability-Cluster (HA-Cluster): Dient der Ausfallsicherheit. Fällt ein Server aus, übernimmt ein anderer Server seine Aufgaben.
+Load-Balancing-Cluster: Verteilt Anfragen und Arbeitslasten auf mehrere Server, damit kein einzelner Server überlastet wird.
+Hochleistungscluster (HPC): Mehrere Server arbeiten gemeinsam an rechenintensiven Aufgaben, um eine höhere Rechenleistung zu erreichen.
 
 ## Prüfungsrelevante Inhalte
 
